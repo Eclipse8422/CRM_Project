@@ -132,7 +132,7 @@ AUTH_USER_MODEL = 'leads.User'
 LOGIN_REDIRECT_URL = '/leads'
 LOGIN_URL = '/login'
 LOGOUT_REDIRECT_URL = '/'
-# EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+
 # Crispy Forms
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
